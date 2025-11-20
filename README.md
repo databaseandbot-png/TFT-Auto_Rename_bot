@@ -7,7 +7,7 @@
 </p>
 
 
-<b><i>Telegram Bot to Auto Rename Files With Metadata .</i></b> 
+<b><i>Telegram Bot to store Posts and Documents and it can Access by Special Links.</i></b> 
 
 
 ### Features
@@ -20,39 +20,24 @@
 - Set Token verify if Needed 
 - Add Admins inside bot if needed 
 - set Bot in public or private mode
-
-<details><summary><b> Upcoming Features :</b></summary>
- ## What’s Next Going to add
-
-These features are in the pipeline, and contributions from the community are welcome!
-
-
-- [x] **Channel Join Request**
-   [ Implement a feature that prompts users to join a specified Telegram channel before accessing the bot's functionalities.]
-
-- [x]  **Database search**
-   [ This feature is used to search file from database by the user and get the file, for security of bot the file should be delete in certain time]
-
-- [x] **IN-Built fsub customize**
-   [ This feature is used to change the force subscribe button by the Admin while bot was running ]
-</details>
+- set Custom name, prefix, suffix and Auto Rename name
 
 <details><summary><b> Deploy Details :</b></summary>
 ### Setup
 
-- Add the bot to Database Channel with all permission
-- Add bot to ForceSub channel as Admin with Invite Users via Link Permission if you enabled ForceSub 
-
+- Add the bot to Force subscribe,Dumb channel and Log Channel with all permission
 
 #### Deploy in your VPS or Commandline
+
 ````bash
-git clone https://github.com/Techfreak555/TF-File-store-bot
-cd TF-File-store-bot
+git clone https://github.com/Techfreak555/TFT-Auto_Rename_bot
+cd TFT-Auto_Rename_bot
 pip3 install -r requirements.txt
 # <Create config.py appropriately>
-python3 main.py
+python3 bot.py
 ````
 </details>
+
 
 <details><summary><b> Command of Bot :</b></summary>
 ### Admin Commands
