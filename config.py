@@ -17,15 +17,15 @@ USER_LIMIT_TIME = int(os.environ.get("USER_LIMIT_TIME", "1"))#enter time based o
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", " 24435985")
-    API_HASH  = os.environ.get("API_HASH", "0fec896446625478537e43906a4829f8")
+    API_ID    = os.environ.get("API_ID", " ")
+    API_HASH  = os.environ.get("API_HASH", "")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
 
     # database config
-    DB_NAME = os.environ.get("DB_NAME","Speedwolf1")     
+    DB_NAME = os.environ.get("DB_NAME","")     
     DB_URL  = os.environ.get("DB_URL","")
     PORT = os.environ.get("PORT", "8050")
-    OWNER = int(os.environ.get("OWNER", "6299192020"))
+    OWNER = int(os.environ.get("OWNER", ""))
     PRIVATE_USE = False #If Bot is private use set True otherwise False
  
     # other configs
@@ -33,7 +33,7 @@ class Config(object):
     START_PIC   = os.environ.get("START_PIC", "https://files.catbox.moe/ufzpkn.jpg")
     
     FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', "tech_freak_tamil").split(',')
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002201298270" ))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "" ))
     DUMB_CHANNEL = os.environ.get("DUMB_CHANNEL", "")
     
     # wes response configuration     
@@ -45,26 +45,26 @@ class Txt(object):
         
     START_TXT = """Hello {} 👋 
 
-➻ This Is An Advanced Auto rename Bot.
+<blockquote>➻ This Is An Advanced Auto rename Bot.
 
 ➻ Using This Bot You Can Able to Rename Your Files one by one or multi.
 
 ➻ You Can Also Select the file type is need to upload.
 
-➻ This Bot is only for Admin use other can use with low limitation 
+➻ This Bot is only for Admin use other can use with low limitation </blockquote>
 
-<b>Bot Is Made By :</b> @Tech_Freak_Tamil"""
+<blockquote><b>Bot Is Made By :</b> @Tech_Freak_Tamil</blockquote>"""
 
-    ABOUT_TXT = f"""<b>😈 My Name :</b> <a href='https://t.me/Tech_Freak_Tamil'>Auto Renamer bot ⚡</a>
+    ABOUT_TXT = f"""<blockquote><b>😈 My Name :</b> <a href='https://t.me/Tech_Freak_Tamil'>Auto Renamer bot ⚡</a>
 <b>📝 Language :</b> <a href='https://python.org'>Python 3</a>
 <b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
 <b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a>
 <b>📢 Channel :</b> <a href='https://t.me/Tech_Freak_Tamil'>TFT BOTS</a>
-<b>🛡️ Disscussion :</b> <a href='https://t.me/+ov2l_dY_8jA3MGVl'>TFT Discussion</a>
+<b>🛡️ Disscussion :</b> <a href='https://t.me/+ov2l_dY_8jA3MGVl'>TFT Discussion</a></blockquote>
     
-<b>😈 Bot Made By :</b> https://t.me/+ov2l_dY_8jA3MGVl"""
+<blockquote><b>😈 Bot Made By :</b> <a href='https://t.me/+ov2l_dY_8jA3MGVl'>TFT Discussion</a></blockquote>"""
 
-    HELP_TXT = """
+    HELP_TXT = """<blockquote>
 🌌 <b><u>How To Set Thumbnail</u></b>
   
 ➪ /start - Start The Bot And Send Any Photo To Automatically Set Thumbnail.
@@ -83,14 +83,14 @@ class Txt(object):
 
 ⏰ Duration ➠ : {duration}</code>
 
-"""
+</blockquote>"""
 
-    PROGRESS_BAR = """\n
+    PROGRESS_BAR = """\n<blockquote>
  <b>🔗 Size :</b> {1} | {2}
 ️ <b>⏳️ Done :</b> {0}%
  <b>🚀 Speed :</b> {3}/s
 ️ <b>⏰️ ETA :</b> {4}
-"""
+</blockquote>"""
 
     DONATE_TXT = """
 <b>🥲 Thanks For Showing Interest In Donation! ❤️</b>
@@ -101,14 +101,14 @@ If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upt
 """
 
 
-    SEND_METADATA = """<b><u>🖼️  HOW TO SET CUSTOM METADATA</u></b>
+    SEND_METADATA = """<blockquote><b><u>🖼️  HOW TO SET CUSTOM METADATA</u></b>
 
 For Example :-
 
 <code>By :- @Tech_Freak_Tamil</code>
 
 💬 For Any Help Contact @Tech_Freak_Tamil
-"""
+</blockquote>"""
 
 
 # Tech freak 
