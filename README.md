@@ -1,5 +1,5 @@
 <h2 align="Center"><b><i>File-Auto-Renamer-Bot</i></b></h2>
-<center><img src="https://files.catbox.moe/ufzpkn.jpg" ></center>
+<center><img style="border-radius:30%" src="https://files.catbox.moe/ufzpkn.jpg" ></center>
 <p align="center">
   <a href="https://www.python.org">
     <img width="10" height="10" src="http://ForTheBadge.com/images/badges/made-with-python.svg" width ="250">
@@ -7,7 +7,7 @@
 </p>
 
 
-<b><i>Telegram Bot to store Posts and Documents and it can Access by Special Links.</i></b> 
+<b><i>Telegram Bot To Auto Rename files Faster With Metadata .</i></b> 
 
 
 <b>Features :</b>
