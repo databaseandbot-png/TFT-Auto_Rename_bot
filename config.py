@@ -43,15 +43,7 @@ class Config(object):
 class Txt(object):
     # part of text configuration
         
-    START_TXT = """Hello {🌟 Welcome to File Renamer Bot! 🌟
-
-🚀 What I Can Do:
-• Rename videos with thumbnails 📝 
-
-📌 How to Use:
-1. Send me a video or reply to one
-2. Click on the buttons below to choose what you want to do
-3. Follow the interactive menus} 👋 
+    START_TXT = """🌟 Welcome {} To File Renamer Bot! 🌟
 
 <blockquote>➻ This Is An Advanced Auto rename Bot.
 
