@@ -33,8 +33,8 @@ class Config(object):
     START_PIC   = os.environ.get("START_PIC", "https://files.catbox.moe/if11gf.jpg")
     
     FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', "orewa_dragon").split(',')
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "" ))
-    DUMB_CHANNEL = os.environ.get("DUMB_CHANNEL", "")
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003376160885" ))
+    DUMB_CHANNEL = os.environ.get("DUMB_CHANNEL", "-1003439981785")
     
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", "True"))
@@ -43,7 +43,15 @@ class Config(object):
 class Txt(object):
     # part of text configuration
         
-    START_TXT = """Hello {} 👋 
+    START_TXT = """Hello {🌟 Welcome to File Renamer Bot! 🌟
+
+🚀 What I Can Do:
+• Rename videos with thumbnails 📝 
+
+📌 How to Use:
+1. Send me a video or reply to one
+2. Click on the buttons below to choose what you want to do
+3. Follow the interactive menus} 👋 
 
 <blockquote>➻ This Is An Advanced Auto rename Bot.
 
